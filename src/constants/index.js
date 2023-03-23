@@ -47,7 +47,7 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "IOS App Developer",
       icon: mobile,
     },
     {
@@ -55,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "Machine Learning",
       icon: creator,
     },
   ];
