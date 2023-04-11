@@ -4,7 +4,7 @@ import {
     creator,
     web,
     javascript,
-    typescript,
+    swift,
     html,
     css,
     reactjs,
@@ -20,7 +20,7 @@ import {
     starbucks,
     tesla,
     shopify,
-    carrent,
+    adtende,
     jobit,
     tripguide,
     threejs,
@@ -74,8 +74,8 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "Swift",
+      icon: swift,
     },
     {
       name: "React JS",
@@ -199,24 +199,24 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Adtende",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "IOS application that helps users take attendance through the creation and scanning of QR codes. Integrated with Google Sheets.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Swift",
+          color: "orange-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "Google REST API",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "CocoaPods",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: adtende,
       source_code_link: "https://github.com/",
     },
     {
@@ -241,21 +241,21 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Trip Guide",
+      name: "Mahjong Tile Recognizer",
       description:
         "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
       tags: [
         {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "Python",
           color: "green-text-gradient",
         },
         {
-          name: "css",
-          color: "pink-text-gradient",
+          name: "Tensorflow",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "numpy",
+          color: "blue-text-gradient",
         },
       ],
       image: tripguide,

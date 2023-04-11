@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { services } from '../constants';
 import { fadeIn, textVariant } from '../utils/motion';
+import { profile_photo, github, linkedin } from '../assets/';
 
 import {SectionWrapper} from '../hoc';
 
@@ -32,17 +33,67 @@ const ServiceCard = ( {index, title, icon} ) => {
 
 const About = () => {
   return (
-    <>
-      <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
-      </motion.div>
+    <> 
+      <div className='flex flex-wrap'>
+        <div>
+          <motion.div variants={textVariant()}>
+            <p className={styles.sectionSubText}>Introduction</p>
+          <h2 className={styles.sectionHeadText}>Overview.</h2>
+          </motion.div>
 
-      <motion.p 
-      variants={fadeIn("", "", 0.1, 1)}
-      className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-      I love solving problems and enjoy learning! Currently, I'm a student at Boston University majoring in computer science and thinking of minoring in data science. I have expereince with swift, python, java, tensorflow and react. 
-      </motion.p>
+          <motion.p 
+            variants={fadeIn("", "", 0.1, 1)}
+            className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
+            I love solving problems and enjoy learning! Currently, I'm a student at Boston University majoring in computer science and thinking of minoring in data science. I have expereince with swift, python, java, tensorflow and react. 
+          </motion.p>
+        </div>
+
+        <Tilt className='xs:w-[250px] w-full'>
+          <motion.div
+            variants={fadeIn("left", "spring", 0.1, 3)}
+            className='w-full bg-white p-[2px] rounded-[20px] shadow-card xs:mx-16'
+            >
+              <div
+                options={{
+                  max: 45, 
+                  scale: 1,
+                  speed: 450
+                }}
+                className="relative w-full"
+              >
+                <img  src={profile_photo} alt="profile_photo" className="w-full h-full object-cover rounded-2xl"/>
+
+                {/* linkedin and github icon */}
+                <div className="absolute inset-x-0 bottom-0 flex justify-evenly m-3 card-img_hover">
+                  <div
+                    onClick={() => window.open("https://github.com/declanyg", "_blank")}
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                  >
+                  <img 
+                    src={github}
+                    alt="github" 
+                    className='w-2/3 h-2/3 object-contain'
+                  />
+                  </div>
+
+                  <div
+                    onClick={() => window.open("https://www.linkedin.com/in/declan-young-437998266/", "_blank")}
+                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                  >
+                  <img 
+                    src={linkedin}
+                    alt="linkedin" 
+                    className='w-2/3 h-2/3 object-contain'
+                  />
+                  </div>
+
+                </div>
+
+              </div>
+          </motion.div>
+        </Tilt>
+
+      </div>
 
       <div className='mt-20 flex flex-wrap gap-10'>
       {services.map((service, index) => (
