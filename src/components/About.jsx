@@ -67,7 +67,7 @@ const About = () => {
                 <div className="absolute inset-x-0 bottom-0 flex justify-evenly m-3 card-img_hover">
                   <div
                     onClick={() => window.open("https://github.com/declanyg", "_blank")}
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                    className="black-gradient hover:scale-125 transition-all duration-300 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
                   >
                   <img 
                     src={github}
@@ -78,7 +78,7 @@ const About = () => {
 
                   <div
                     onClick={() => window.open("https://www.linkedin.com/in/declan-young-437998266/", "_blank")}
-                    className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+                    className="black-gradient hover:scale-125 transition-all duration-300 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
                   >
                   <img 
                     src={linkedin}
