@@ -29,6 +29,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import adtende from "./adtende.png";
+import mahjongTileScorer from "./mahjongTileScorer.svg";
+import mahjongTileRecognizer from "./mahjongTileRecognizer.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -63,6 +65,8 @@ export {
   starbucks,
   tesla,
   adtende,
+  mahjongTileRecognizer,
+  mahjongTileScorer,
   jobit,
   tripguide,
   profile_photo

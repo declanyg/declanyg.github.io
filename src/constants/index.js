@@ -21,9 +21,11 @@ import {
     tesla,
     shopify,
     adtende,
+    mahjongTileRecognizer,
     jobit,
     tripguide,
     threejs,
+    mahjongTileScorer,
   } from "../assets";
   
   export const navLinks = [
@@ -220,34 +222,30 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Mahjong Tile Scorer",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "IOS application for scoring mahjong tile hands. Input mahjong tiles and it'll be scored based on the taiwanese scoring method. English and Chinese version.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
+          name: "Swift",
+          color: "orange-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
+          name: "CocoaPods",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: mahjongTileScorer,
+      source_code_link: "https://github.com/declanyg/MahjongTileScorer",
     },
     {
       name: "Mahjong Tile Recognizer",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "A mahjong tile image recognizer created using tensorflow. Part of a experiment to test the difference between activation functions relu and sigmoid.",
       tags: [
         {
           name: "Python",
-          color: "green-text-gradient",
+          color: "pink-text-gradient",
         },
         {
           name: "Tensorflow",
@@ -258,8 +256,8 @@ import {
           color: "blue-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: mahjongTileRecognizer,
+      source_code_link: "https://github.com/declanyg/MahjongTileRecognition",
     },
   ];
   
