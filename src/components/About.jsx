@@ -46,6 +46,14 @@ const About = () => {
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
             I love solving problems and enjoy learning! Currently, I'm a student at Boston University majoring in computer science and thinking of minoring in data science. I have expereince with swift, python, java, tensorflow and react. 
           </motion.p>
+          
+          <button
+            type='submit'
+            onClick={() => window.open("https://drive.google.com/file/d/1varO2kfS1p93qhc92xo1tYgj33RP-Ksb/view?usp=sharing", "_blank")}
+            className="mt-4 bg-[#14102e] hover:shadow-secondary py-3 px-8 w-fit text-white font-bold shadow-md shadow-secondary/50 rounded-xl">
+            Resumé
+          </button>
+
         </div>
 
         <Tilt className='xs:w-[250px] w-full'>
