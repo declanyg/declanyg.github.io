@@ -22,6 +22,9 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import swift from "./tech/swift.png";
+import python from "./tech/python.png";
+import java from "./tech/java.png";
+import tensorflow from "./tech/tensorflow.png"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -60,6 +63,9 @@ export {
   typescript,
   threejs,
   swift,
+  python,
+  java,
+  tensorflow,
   meta,
   shopify,
   starbucks,
