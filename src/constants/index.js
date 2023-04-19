@@ -13,6 +13,7 @@ import {
     nodejs,
     mongodb,
     git,
+    github,
     figma,
     docker,
     python,
@@ -28,6 +29,7 @@ import {
     tripguide,
     threejs,
     mahjongTileScorer,
+    appStore,
   } from "../assets";
   
   export const navLinks = [
@@ -233,7 +235,8 @@ import {
         },
       ],
       image: adtende,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://apps.apple.com/us/app/adtende/id1584822471",
+      project_link_image: appStore,
     },
     {
       name: "Mahjong Tile Scorer",
@@ -251,6 +254,7 @@ import {
       ],
       image: mahjongTileScorer,
       source_code_link: "https://github.com/declanyg/MahjongTileScorer",
+      project_link_image: github,
     },
     {
       name: "Mahjong Tile Recognizer",
@@ -272,6 +276,7 @@ import {
       ],
       image: mahjongTileRecognizer,
       source_code_link: "https://github.com/declanyg/MahjongTileRecognition",
+      project_link_image: github,
     },
   ];
   

@@ -7,7 +7,7 @@ import { SectionWrapper  } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion';
 
-const ProjectCard = ({index, name, description, tags, image, source_code_link}) => {
+const ProjectCard = ({index, name, description, tags, image, source_code_link, project_link_image }) => {
   return (
     <motion.div variants={fadeIn("up", 'spring', index*0.5, 0.75)}>
       <Tilt
@@ -30,8 +30,8 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link}) 
               className="black-gradient hover:scale-125 transition-all duration-300 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img 
-                src={github}
-                alt="github" 
+                src={project_link_image}
+                alt="link_image" 
                 className='w-2/3 h-2/3 object-contain'
               />
             </div>
