@@ -12,7 +12,7 @@ const App = () => {
           <Hero />
         </div>
         <About />
-        {/* <Experience /> */}
+        {/* <Experience /> */}  
         <Tech />
         <Works />
         {/* <Feedbacks /> */}
@@ -21,7 +21,6 @@ const App = () => {
           <StarsCanvas />
         </div>
       </div>
-      {/* <CatCanvas/> */}
     </BrowserRouter>
   );
 }

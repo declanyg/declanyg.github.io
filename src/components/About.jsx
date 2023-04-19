@@ -50,7 +50,7 @@ const About = () => {
           <button
             type='submit'
             onClick={() => window.open("https://drive.google.com/file/d/1varO2kfS1p93qhc92xo1tYgj33RP-Ksb/view?usp=sharing", "_blank")}
-            className="mt-4 bg-[#14102e] hover:shadow-secondary py-3 px-8 w-fit text-white font-bold shadow-md shadow-secondary/50 rounded-xl">
+            className="mt-4 bg-[#14102e] hover:shadow-secondary duration-300 py-3 px-8 w-fit text-white font-bold shadow-md shadow-secondary/50 rounded-xl">
             Resumé
           </button>
 
