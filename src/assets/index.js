@@ -31,6 +31,8 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import cdnis from "./company/cdnis.png";
+import bostonUniversity from "./company/bostonUniversity.png";
 
 import adtende from "./adtende.png";
 import mahjongTileScorer from "./mahjongTileScorer.svg";
@@ -72,6 +74,8 @@ export {
   shopify,
   starbucks,
   tesla,
+  cdnis,
+  bostonUniversity,
   adtende,
   mahjongTileRecognizer,
   mahjongTileScorer,
