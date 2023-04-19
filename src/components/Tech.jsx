@@ -7,7 +7,7 @@ import { CatCanvas } from "../components/canvas/";
 const Tech = () => {
   return (
 
-    <div className="flex flex-wrap justify-evenly">
+    <div className="flex flex-row gap-10 overflow-hidden">
       <CatCanvas/>
 
       <div className="flex flex-row flex-wrap justify-center gap-10">

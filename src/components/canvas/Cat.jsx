@@ -13,7 +13,7 @@ const Cat = () => {
         <pointLight intensity={0} />
         <spotLight 
           position={[0, 0, 0]}
-          angle={0.12}
+          angle={0}
           penumbra={1}
           intensity={1}
           castShadow
@@ -22,7 +22,7 @@ const Cat = () => {
         />
         <primitive 
         object={cat.scene} 
-        scale={0.04}
+        scale={0.1}
         position={[0, 0, 0]}
         rotation={[0, 0, 0]}
         />
@@ -34,8 +34,8 @@ const Cat = () => {
     return (
       <Canvas dpr={[1,2]} shadows camera={{fov: 45}} >
         <PresentationControls speed={1.5} zoom={.5} polar={[-Math.PI/2, Math.PI/4]}>
-          <Stage environment={null}>
-            <Cat scale={0.05} />
+          <Stage >
+            <Cat scale={0.1} />
           </Stage>
         </PresentationControls>
       </Canvas>
