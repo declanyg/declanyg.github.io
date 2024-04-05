@@ -37,6 +37,7 @@ import bostonUniversity from "./company/bostonUniversity.png";
 import adtende from "./adtende.png";
 import mahjongTileScorer from "./mahjongTileScorer.svg";
 import mahjongTileRecognizer from "./mahjongTileRecognizer.png";
+import calendarScraper from "./calendarScraper.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -81,5 +82,6 @@ export {
   mahjongTileScorer,
   jobit,
   tripguide,
-  profile_photo
+  profile_photo,
+  calendarScraper
 };

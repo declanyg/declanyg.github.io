@@ -44,7 +44,7 @@ const About = () => {
           <motion.p 
             variants={fadeIn("", "", 0.1, 1)}
             className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-            I love solving problems and enjoy learning! Currently, I'm a student at Boston University majoring in computer science and thinking of minoring in data science. I have expereince with swift, python, java, tensorflow and react. 
+            I love solving problems and enjoy learning! Currently, I'm a sophmore at Boston University majoring in computer science and minoring in data science. I have expereince with swift, python, go, java, react, express, pytorch, tensorflow. 
           </motion.p>
           
           <button

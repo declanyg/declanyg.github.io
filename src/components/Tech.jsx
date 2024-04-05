@@ -8,7 +8,7 @@ const Tech = () => {
   return (
 
     <div className="flex flex-row gap-10 overflow-hidden">
-      <CatCanvas/>
+      {/* <CatCanvas/> */}
 
       <div className="flex flex-row flex-wrap justify-center gap-10">
       

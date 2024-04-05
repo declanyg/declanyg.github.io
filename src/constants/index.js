@@ -32,6 +32,7 @@ import {
     threejs,
     mahjongTileScorer,
     appStore,
+    calendarScraper,
   } from "../assets";
   
   export const navLinks = [
@@ -157,8 +158,9 @@ import {
       date: "September 2022 - May 2026",
       points: [
         "BA in Computer Science",
-        "Probably minor in Data Science",
-        "Part of BostonHacks team",
+        "Minor in Data Science",
+        "Part of BostonHacks tech team",
+        "Projected to graduate a year early"
       ],
     },
     // {
@@ -277,6 +279,28 @@ import {
       ],
       image: mahjongTileRecognizer,
       source_code_link: "https://github.com/declanyg/MahjongTileRecognition",
+      project_link_image: github,
+    },
+    {
+      name: "Boston University Calendar Scraper",
+      description:
+        "Web app that automatically scrapes the user's MyBU current schedule with Pupeteer into a Google Calendar of their choice",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Express",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Pupeteer",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: calendarScraper,
+      source_code_link: "https://github.com/declanyg/calendar-automater-api",
       project_link_image: github,
     },
   ];
