@@ -313,8 +313,8 @@ import {
     {
       name: "Assignment 0",
       description:
-        "Assignment 0 description test test",
-      source_code_link: "https://github.com",
+        "Dummy assignment to add 2 numbers",
+      source_code_link: "https://github.com/declanyg/assignment-0",
       project_link_image: github,
     },
     {
