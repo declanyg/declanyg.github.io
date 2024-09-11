@@ -45,6 +45,10 @@ import {
       title: "Work",
     },
     {
+      id: "assignments",
+      title: "Assignments",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -102,10 +106,10 @@ import {
     //   name: "Node JS",
     //   icon: nodejs,
     // },
-    // {
-    //   name: "MongoDB",
-    //   icon: mongodb,
-    // },
+    {
+      name: "MongoDB",
+      icon: mongodb,
+    },
     {
       name: "Three JS",
       icon: threejs,
@@ -304,5 +308,36 @@ import {
       project_link_image: github,
     },
   ];
+
+  const assignments = [
+    {
+      name: "Assignment 0",
+      description:
+        "Assignment 0 description test test",
+      source_code_link: "https://github.com",
+      project_link_image: github,
+    },
+    {
+      name: "Assignment 1",
+      description:
+        "Assignment 1 description test test",
+      source_code_link: "https://github.com",
+      project_link_image: github,
+    },
+    {
+      name: "Assignment 2",
+      description:
+        "Assignment 2 description test test",
+      source_code_link: "https://github.com",
+      project_link_image: github,
+    },
+    {
+      name: "Assignment 3",
+      description:
+        "Assignment 3 description test test",
+      source_code_link: "https://github.com",
+      project_link_image: github,
+    },
+  ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, assignments };
