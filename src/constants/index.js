@@ -314,7 +314,7 @@ import {
       name: "Assignment 0",
       description:
         "Dummy assignment to add 2 numbers",
-      source_code_link: "https://github.com/declanyg/assignment-0",
+      source_code_link: "https://github.com/declanyg/declanyg-assignment-0",
       project_link_image: github,
     },
     {
