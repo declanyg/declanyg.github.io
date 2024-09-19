@@ -318,10 +318,10 @@ import {
       project_link_image: github,
     },
     {
-      name: "Assignment 1",
+      name: "Assignment 1: CDS Best Elevator Wait Location",
       description:
-        "Assignment 1 description test test",
-      source_code_link: "https://github.com",
+        "Assignment to determine the best possible wait location for the elevators in the CDS building in Boston University. Based on data recorded by students, analyzed and calculated in Python with matplotlib, numpy and pandas.",
+      source_code_link: "https://github.com/declanyg/declanyg-assignment-1",
       project_link_image: github,
     },
     {
