@@ -9,8 +9,6 @@ import { SectionWrapper  } from '../hoc';
 import { assignments } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion';
 
-import test from '../assets/videos/CS506_assignment2_demo.mov';
-
 const AssignmentCard = ({index, name, description, video=null, source_code_link, project_link_image }) => {
   return (
     <motion.div variants={fadeIn("up", 'spring', index*0.5, 0.75)}>
