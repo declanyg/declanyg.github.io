@@ -9,7 +9,9 @@ import { SectionWrapper  } from '../hoc';
 import { assignments } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion';
 
-const AssignmentCard = ({index, name, description, source_code_link, project_link_image }) => {
+import test from '../assets/videos/CS506_assignment2_demo.mov';
+
+const AssignmentCard = ({index, name, description, video=null, source_code_link, project_link_image }) => {
   return (
     <motion.div variants={fadeIn("up", 'spring', index*0.5, 0.75)}>
       <Tilt
@@ -20,27 +22,12 @@ const AssignmentCard = ({index, name, description, source_code_link, project_lin
         }}
         className="bg-tertiary p-5 rounded-2xl w-full"
       >
-        {/* <div className='relative w-full h-[180px]'>
-          <div className=''>
-            <h3 className="text-white font-bold text-[24px]">{name}</h3>
-            <p className="mt-2 text-secondary text-[14px]">{description}</p>
-          </div>
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient hover:scale-125 transition-all duration-300 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img 
-                src={project_link_image}
-                alt="link_image" 
-                className='w-2/3 h-2/3 object-contain'
-              />
-            </div>
-          </div>
-        </div> */}
         <div className=''>
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
+            { video ? <video controls muted autoPlay={false} className='w-1/2 justify-center'>
+              <source src={video} type="video/mp4"></source>
+            </video> : <></>}
         </div>
         <div className='w-[18%]'>
           <button

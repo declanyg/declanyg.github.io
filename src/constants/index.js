@@ -33,6 +33,7 @@ import {
     mahjongTileScorer,
     appStore,
     calendarScraper,
+    assignment2Demo
   } from "../assets";
   
   export const navLinks = [
@@ -325,10 +326,11 @@ import {
       project_link_image: github,
     },
     {
-      name: "Assignment 2",
+      name: "Assignment 2: KMeans Visualizer",
       description:
-        "Assignment 2 description test test",
-      source_code_link: "https://github.com",
+        "Assignment to demonstrate and visualize KMeans with varying centroids and initialization methods. ",
+      video: assignment2Demo,
+      source_code_link: "https://github.com/declanyg/declanyg-assignment-2",
       project_link_image: github,
     },
     {
