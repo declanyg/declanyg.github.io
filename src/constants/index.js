@@ -334,10 +334,10 @@ import {
       project_link_image: github,
     },
     {
-      name: "Assignment 3",
+      name: "Assignment 3: SVD MNIST",
       description:
-        "Assignment 3 description test test",
-      source_code_link: "https://github.com",
+        "Assignment to apply SVD on the MNIST dataset to find the ideal number of components in the dataset to maximize the testing accuracy",
+      source_code_link: "https://github.com/declanyg/declanyg-assignment-3",
       project_link_image: github,
     },
   ];
