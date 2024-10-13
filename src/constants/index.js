@@ -33,7 +33,6 @@ import {
     mahjongTileScorer,
     appStore,
     calendarScraper,
-    assignment2Demo
   } from "../assets";
   
   export const navLinks = [
@@ -329,7 +328,7 @@ import {
       name: "Assignment 2: KMeans Visualizer",
       description:
         "Assignment to demonstrate and visualize KMeans with varying centroids and initialization methods. ",
-      video: assignment2Demo,
+      video: "https://drive.google.com/file/d/1Mj0w9Y4x9jUGjMLnUkGqg4BlcGVrNJNG/preview",
       source_code_link: "https://github.com/declanyg/declanyg-assignment-2",
       project_link_image: github,
     },
@@ -338,6 +337,14 @@ import {
       description:
         "Assignment to apply SVD on the MNIST dataset to find the ideal number of components in the dataset to maximize the testing accuracy",
       source_code_link: "https://github.com/declanyg/declanyg-assignment-3",
+      project_link_image: github,
+    },
+    {
+      name: "Assignment 4: Latent Semantic Analysis Search Engine",
+      description:
+        "Assignment to create a search engine that searches run the SKlearn 20 news group dataset for the most similar articles. Achieved through the use of lsa and SVD.",
+        video: "https://drive.google.com/file/d/1e5FL8F9S0UIKcZxpJe2Wqvo94oaOO6kS/preview",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-4",
       project_link_image: github,
     },
   ];

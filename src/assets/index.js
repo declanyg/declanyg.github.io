@@ -43,8 +43,6 @@ import tripguide from "./tripguide.png";
 
 import profile_photo from "./profile_photo.jpg";
 
-import assignment2Demo from "./videos/CS506_assignment2_demo.mov";
-
 export {
   logo,
   backend,
@@ -86,5 +84,4 @@ export {
   tripguide,
   profile_photo,
   calendarScraper,
-  assignment2Demo
 };

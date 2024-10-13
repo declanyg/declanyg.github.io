@@ -1,8 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0924951a.css",
-    "main.js": "/static/js/main.a2262ede.js",
-    "static/media/CS506_assignment2_demo.mov": "/static/media/CS506_assignment2_demo.df0e94afcdbd843991ac.mov",
+    "main.css": "/static/css/main.9496f60d.css",
+    "main.js": "/static/js/main.79bef18b.js",
     "static/media/tripguide.png": "/static/media/tripguide.991986c795ea140ba063.png",
     "static/media/jobit.png": "/static/media/jobit.755da7149642fd049273.png",
     "static/media/mahjongTileScorer.svg": "/static/media/mahjongTileScorer.1ec482cea1ee530bbff55868cbc724be.svg",
@@ -30,11 +29,11 @@
     "static/media/menu.svg": "/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
     "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "index.html": "/index.html",
-    "main.0924951a.css.map": "/static/css/main.0924951a.css.map",
-    "main.a2262ede.js.map": "/static/js/main.a2262ede.js.map"
+    "main.9496f60d.css.map": "/static/css/main.9496f60d.css.map",
+    "main.79bef18b.js.map": "/static/js/main.79bef18b.js.map"
   },
   "entrypoints": [
-    "static/css/main.0924951a.css",
-    "static/js/main.a2262ede.js"
+    "static/css/main.9496f60d.css",
+    "static/js/main.79bef18b.js"
   ]
 }

@@ -23,9 +23,9 @@ const AssignmentCard = ({index, name, description, video=null, source_code_link,
         <div className=''>
             <h3 className="text-white font-bold text-[24px]">{name}</h3>
             <p className="mt-2 text-secondary text-[14px]">{description}</p>
-            { video ? <video controls muted autoPlay={false} className='w-1/2 justify-center'>
-              <source src={video} type="video/mp4"></source>
-            </video> : <></>}
+             { video ?
+              <iframe src={video} width="426" height="240" allow="autoplay"></iframe>
+             : <></>}
         </div>
         <div className='w-[18%]'>
           <button
