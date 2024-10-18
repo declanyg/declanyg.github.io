@@ -347,6 +347,13 @@ import {
         source_code_link: "https://github.com/declanyg/declanyg-assignment-4",
       project_link_image: github,
     },
+    {
+      name: "Assignment 5: K-Nearest Neighbors",
+      description:
+        "Assignment to create a KNearestNeighbors classifer and the cross validation function from scratch.",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-5",
+      project_link_image: github,
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, assignments };
