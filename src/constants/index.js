@@ -354,6 +354,13 @@ import {
         source_code_link: "https://github.com/declanyg/declanyg-assignment-5",
       project_link_image: github,
     },
+    {
+      name: "Midterm: CS506 Midterm Fall 2024",
+      description:
+        "CS506 midterm to predict predict the star rating associated with user reviews from Amazon Movie Reviews",
+        source_code_link: "https://github.com/declanyg/declanyg-cs506-midterm",
+      project_link_image: github,
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, assignments };
