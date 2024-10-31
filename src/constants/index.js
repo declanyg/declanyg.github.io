@@ -365,7 +365,7 @@ import {
       name: "Assignment 6: Linear Regression",
       description:
         "Assignment to create an interactive linear regression model that generates data and graphs.",
-        video: "https://drive.google.com/file/d/11TeD2kAzW88UbioVy5O4WoO5AmRWs7DF/view?usp=sharing",
+        video: "https://drive.google.com/file/d/11TeD2kAzW88UbioVy5O4WoO5AmRWs7DF/preview",
         source_code_link: "https://github.com/declanyg/declanyg-assignment-6",
       project_link_image: github,
     },
