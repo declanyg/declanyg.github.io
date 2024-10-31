@@ -362,7 +362,7 @@ import {
       project_link_image: github,
     },
     {
-      name: "Assignment 6: Linar Regression",
+      name: "Assignment 6: Linear Regression",
       description:
         "Assignment to create an interactive linear regression model that generates data and graphs.",
         video: "https://drive.google.com/file/d/11TeD2kAzW88UbioVy5O4WoO5AmRWs7DF/view?usp=sharing",
