@@ -361,6 +361,14 @@ import {
         source_code_link: "https://github.com/declanyg/declanyg-cs506-midterm",
       project_link_image: github,
     },
+    {
+      name: "Assignment 6: Linar Regression",
+      description:
+        "Assignment to create an interactive linear regression model that generates data and graphs.",
+        video: "https://drive.google.com/file/d/11TeD2kAzW88UbioVy5O4WoO5AmRWs7DF/view?usp=sharing",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-6",
+      project_link_image: github,
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, assignments };
