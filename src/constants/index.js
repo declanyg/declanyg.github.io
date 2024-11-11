@@ -369,6 +369,14 @@ import {
         source_code_link: "https://github.com/declanyg/declanyg-assignment-6",
       project_link_image: github,
     },
+    {
+      name: "Assignment 7: Linear Regression Hypothesis Testing and Confidence Intervals",
+      description:
+        "Assignment to create an interactive linear regression model that generates data and graphs with hypotehsis and confidence interval testing. An addition to the previous assignment 6",
+        video: "https://drive.google.com/file/d/1lJtSG-QCndRRlAGP7v3NaN7-xL8J4OsM/preview",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-7",
+      project_link_image: github,
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, assignments };
