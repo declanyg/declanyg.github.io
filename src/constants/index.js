@@ -372,9 +372,17 @@ import {
     {
       name: "Assignment 7: Linear Regression Hypothesis Testing and Confidence Intervals",
       description:
-        "Assignment to create an interactive linear regression model that generates data and graphs with hypotehsis and confidence interval testing. An addition to the previous assignment 6",
+        "Assignment to create an interactive linear regression model that generates data and graphs with hypothesis and confidence interval testing. An addition to the previous assignment 6",
         video: "https://drive.google.com/file/d/1lJtSG-QCndRRlAGP7v3NaN7-xL8J4OsM/preview",
         source_code_link: "https://github.com/declanyg/declanyg-assignment-7",
+      project_link_image: github,
+    },
+    {
+      name: "Assignment 8: Logistic Regression Interactive Cluster Shift Experiment",
+      description:
+        "Assignment to create an interactive logistic regression cluster shift experiment that generates data and graphs based on a given cluster shift start, end and steps. It demonstrates how increasing the cluster width between the 2 given values affects logistic regression's performance on classifying clusters.",
+        video: "https://drive.google.com/file/d/1mnB6p_uN6U-CSF7JXoSvpGd0uZnJR-3x/preview",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-8",
       project_link_image: github,
     },
   ];
