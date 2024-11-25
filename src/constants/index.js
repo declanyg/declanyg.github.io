@@ -385,6 +385,13 @@ import {
         source_code_link: "https://github.com/declanyg/declanyg-assignment-8",
       project_link_image: github,
     },
+    {
+      name: "Assignment 9: Simple Neural Network Interactive Visualizer",
+      description:
+        "Assignment to create an interactive simple neural network visualizer that generates data and shows a training animation based on a given activation function, learning rate, and training steps.",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-9",
+      project_link_image: github,
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, assignments };
