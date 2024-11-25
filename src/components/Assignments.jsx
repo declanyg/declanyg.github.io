@@ -50,9 +50,13 @@ const Assignments = () => {
   const location = useLocation();
 
   useEffect(() => {
-    window.scrollTo(0, 0);
     if (location.pathname == "/assignments") {
       document.body.style.zoom = "90%"
+      setTimeout(() => {
+
+        window.scroll({ top: -1, left: 0, behavior: "smooth" });
+    
+      }, 10); 
     } 
     else {
       document.body.style.zoom = "100%"
