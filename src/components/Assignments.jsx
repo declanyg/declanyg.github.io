@@ -1,10 +1,9 @@
 import Tilt from 'react-parallax-tilt';
 import { motion } from 'framer-motion';
 import { Link, useLocation } from 'react-router-dom';
-
+import { useEffect } from 'react';
 
 import { styles } from '../styles';
-import { github } from '../assets';
 import { SectionWrapper  } from '../hoc';
 import { assignments } from '../constants';
 import { fadeIn, textVariant} from '../utils/motion';
@@ -47,6 +46,19 @@ const AssignmentCard = ({index, name, description, video=null, source_code_link,
 }
 
 const Assignments = () => {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    if (location.pathname == "/assignments") {
+      document.body.style.zoom = "90%"
+    } 
+    else {
+      document.body.style.zoom = "100%"
+    }
+  }, [location]);
+
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -64,7 +76,7 @@ const Assignments = () => {
       </div>
 
       <div className='mt-20 flex flex-wrap flex-col gap-7'>
-        {window.location.pathname == "/" ? <div>{assignments.slice(0, 3).map((assignment, index) => (
+        {location.pathname == "/" ? <div>{assignments.slice(0, 3).map((assignment, index) => (
           <AssignmentCard 
             key={`assignment-${index}`}
             index={index}
@@ -78,7 +90,7 @@ const Assignments = () => {
           />
         ))}</div>}
       </div>
-      {window.location.pathname == "/" ? <Link
+      {location.pathname == "/" ? <Link
           to="/assignments"
           className="flex items-center gap-2 justify-center"
         >

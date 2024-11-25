@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, Assignments, StarsCanvas } from "./components";
 
 const App = () => {
+
   return (
     <BrowserRouter>
       <Routes>
