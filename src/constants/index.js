@@ -392,6 +392,13 @@ import {
         source_code_link: "https://github.com/declanyg/declanyg-assignment-9",
       project_link_image: github,
     },
+    {
+      name: "Assignment 10: Image Search",
+      description:
+        "Assignment to implement a simplified version of Google Image Search.",
+        source_code_link: "https://github.com/declanyg/declanyg-assignment-10",
+      project_link_image: github,
+    },
   ];
   
   export { services, technologies, experiences, testimonials, projects, assignments };
